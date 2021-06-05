@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./index.less";
+import Address  from '../AddressSelectModal';
 
 export default function IndexPage() {
   const [address, setAddress] = useState("");
